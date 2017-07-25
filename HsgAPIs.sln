@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HsgCatCardOfficeAPI", "HsgCatCardOfficeAPI\HsgCatCardOfficeAPI.csproj", "{A373D213-ABE3-4152-98DB-01584355C695}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HsgStarRezAPI", "HsgStarRezAPI\HsgStarRezAPI.csproj", "{93645966-991F-4D9F-9FF6-8B753203211B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HsgEdsLdap", "HsgEdsLdap\HsgEdsLdap.csproj", "{E632620F-70C4-49B9-8077-8BC88C8E452C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HsgGrouper", "HsgGrouper\HsgGrouper.csproj", "{2EB22801-672B-487D-8699-C80FC6244C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HsgCommunications", "HsgCommunications\HsgCommunications.csproj", "{37751668-BB3F-475A-AEA5-CCADB5199AB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{93645966-991F-4D9F-9FF6-8B753203211B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93645966-991F-4D9F-9FF6-8B753203211B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93645966-991F-4D9F-9FF6-8B753203211B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E632620F-70C4-49B9-8077-8BC88C8E452C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E632620F-70C4-49B9-8077-8BC88C8E452C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E632620F-70C4-49B9-8077-8BC88C8E452C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E632620F-70C4-49B9-8077-8BC88C8E452C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB22801-672B-487D-8699-C80FC6244C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB22801-672B-487D-8699-C80FC6244C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB22801-672B-487D-8699-C80FC6244C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB22801-672B-487D-8699-C80FC6244C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37751668-BB3F-475A-AEA5-CCADB5199AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37751668-BB3F-475A-AEA5-CCADB5199AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37751668-BB3F-475A-AEA5-CCADB5199AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37751668-BB3F-475A-AEA5-CCADB5199AB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
