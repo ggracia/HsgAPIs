@@ -9,21 +9,36 @@ namespace HsgCatCardOfficeAPI
     public class IsoChange
     {
         /// <summary>
+        /// The date and time of the change to this Cat Card
+        /// </summary>
+        public DateTime ChangeDateTime { get; set; }
+
+        /// <summary>
         /// The id of the change
         /// </summary>
         public int ChangeID { get; set; }
         /// <summary>
-        /// The date and time of the change to this Cat Card
+        /// Describes the type of change (Initial, Replacement)
         /// </summary>
-        public DateTime ChangeTimeStamp { get; set; }
+        public string ChangeType { get; set; }
         /// <summary>
-        /// The Cat Card number
+        /// The email of the person
         /// </summary>
-        public string ISO { get; set; }
+        public string Email { get; set; }
         /// <summary>
         /// The EmplID/StudentID of the person
         /// </summary>
-        public string UniversityID { get; set; }
+        public string EmplID { get; set; }
+        public string FirstName { get; set; }
+        /// <summary>
+        /// The Cat Card number
+        /// </summary>
+        public string IsoNumber { get; set; }
+        public string LastName { get; set; }
+        /// <summary>
+        /// The Net ID of the person 
+        /// </summary>
+        public string NetID { get; set; }
 
     }
 }

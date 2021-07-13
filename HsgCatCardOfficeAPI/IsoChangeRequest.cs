@@ -11,19 +11,19 @@ namespace HsgCatCardOfficeAPI
         /// <summary>
         /// The authorization key to access the API
         /// </summary>
-        public string APIKey { get; set; }
-        /// <summary>
-        /// (Optional) The id of the previous change ID
-        /// </summary>
-        public int? ChangeId { get; set; }
-        /// <summary>
-        /// (Optional) The date in the format MM/dd/yyyy HH:mm:ss
-        /// </summary>
-        public string ChangeTimeStamp { get; set; }
+        public string ApiKey { get; set; }
 
-        public bool ShouldSerializeChangeId()
-        {
-            return ChangeId.HasValue;
-        }
+        /// <summary>
+        /// The date and time to pull changes since.
+        /// </summary>
+        public string FromDateTime { get; set; }
+
+        /// <summary>
+        /// The date and time to pull changes to.
+        /// </summary>
+        public string ToDateTime { get; set; }
+
+        
+
     }
 }

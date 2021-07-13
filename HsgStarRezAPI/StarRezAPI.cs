@@ -210,6 +210,7 @@ namespace HsgStarRezAPI
 
         private void CheckUpdateURL()
         {
+            if (UpdateURL.Length == 0) return;
             UpdateURL = UpdateURL.Substring(UpdateURL.Length - 1, 1) == "/" ? UpdateURL : UpdateURL + "/";
         }
 
